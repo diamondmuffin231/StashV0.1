@@ -1,14 +1,45 @@
 History/Commits/Etc (Before Git/Github)
 
 10/31/26
-Setting baseline/structure 
+
+Design 
+  * budget (general?)
+    - Income
+    - Expenses 
+      + Essentials 
+      + Non-Essentials
+  * estimate (feature?)
+  * data/information (Back-End)
+    - Recieved/Collected 
+      + Manual input
+      + Image/Screenshot scan 
+      + API 
+        ~ Bank?
+        ~ Phone? 
+    - Category 
+      + Daily, Weekly, Monthly, Yearly
+  * Main screen (Front end)
+    - Curved rectangle with spending money 
+    - Side (hamburger thing?)
+      + Edit Information 
+
+Setting code baseline/structure/environment [non-code]
    * Framework 
       - React Native 
          + Expo?
          + Languages 
             # JavaScript / TypeScript
-
     * Other 
        - Node.js (LTS Version)
        - Visual Studio Code (VS Code)
        - Android Studio
+       - Git/Github 
+
+**********************************************************************************
+**********************************************************************************
+**********************************************************************************
+
+1) Setting up framework
+      npx create-expo-app@latest StashApp
+      cd MyFirstApp
+      npx expo start
