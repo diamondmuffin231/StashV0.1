@@ -1,8 +1,10 @@
 History/Commits/Etc (Before Git/Github)
 
+⚠️❌✅
+
 10/31/26
 
-Design 
+Design ⚠️
   * budget (general?)
     - Income
     - Expenses 
@@ -20,8 +22,14 @@ Design
       + Daily, Weekly, Monthly, Yearly
   * Main screen (Front end)
     - Curved rectangle with spending money 
+      + Day/Week/Month? 
+    - Curved rectangle to enter 
+      + Enter paycheck 
+      + Enter expenses 
+         ~ For day (automatic but can choose to change to week/month)
+           # can press and choose other 
     - Side (hamburger thing?)
-      + Edit Information 
+      + Edit Information [general] 
 
 Setting code baseline/structure/environment [non-code]
    * Framework 
@@ -39,7 +47,33 @@ Setting code baseline/structure/environment [non-code]
 **********************************************************************************
 **********************************************************************************
 
-1) Setting up framework
-      npx create-expo-app@latest StashApp
+1) Setting up framework ⚠️
+      # Create a prjoect named MyFirstApp
+      npx create-expo-app@latest MyFirstApp
+
+      
       cd MyFirstApp
+
+      # Start development server 
       npx expo start
+
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+
+11/2/26 
+???
+   FRONT END
+      React Native
+      TypeScript
+      Expo
+        ↓
+   BACK END
+      Node.js
+      API
+        ↓
+   DATABASE
+      PostgreSQL
+
+
+
